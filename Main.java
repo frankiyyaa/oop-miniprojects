@@ -21,7 +21,8 @@ class Student extends person {
     {
         super (n,a);}
     
-    public void show(){System.out.println ("I am " +getName()+ " and I am " +getAge()+ " years old");} 
+    public void show(){System.out.println ("Student Name: "  +getName()+ 
+    " Student Age:  " +getAge()+ " years old");} 
         
 }
 
